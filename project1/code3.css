@@ -1,0 +1,393 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#line {
+    color: white;
+    position: absolute;
+    height: 30px;
+    top: 70%;
+    width: 100%;
+    border-top: .3px solid rgba(255, 255, 255, 0.247);
+    border-bottom: .3px solid rgba(255, 255, 255, 0.212);
+}
+
+#line:hover {
+    background-color: rgba(26, 24, 24, 0.185);
+}
+
+#line h1 {
+
+    font-weight: 50;
+    font-size: 15px;
+    letter-spacing: 8px;
+}
+
+#circle {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    height: 150px;
+    width: 150px;
+    border-top: .3px solid rgba(255, 255, 255, 0.486);
+    border-bottom: .3px solid rgba(255, 255, 255, 0.466);
+    border-radius: 100px;
+}
+
+#circle:hover {
+    background-color: rgba(128, 128, 128, 0.192);
+}
+
+#circle h1 {
+    position: absolute;
+    position: relative;
+    letter-spacing: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: 50;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+#circle h1:hover {
+    color: silver;
+
+}
+
+#left {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    height: 100%;
+    width: 30%;
+    background-color: black;
+
+}
+
+#leftbtm h2 {
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    color: rgba(192, 192, 192, 0.527);
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+
+#leftbtm h2:hover {
+    color: rgb(175, 146, 72);
+    transition: .5s ease-out;
+    font-size: 35px;
+}
+
+#leftbtm1 h2 {
+    position: absolute;
+    top: 86%;
+    left: 4%;
+    color: rgba(192, 192, 192, 0.459);
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+
+#leftbtm1 h2:hover {
+    color: rgb(179, 147, 68);
+    transition: .5s ease-out;
+    font-size: 35px;
+}
+
+#center {
+    height: 100%;
+    width: 45%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/121/72/34/game-of-thrones-daenerys-targaryen-emilia-clarke-dragon-artwork-hd-wallpaper-preview.jpg);
+
+    background-position: center;
+    background-size: cover;
+}
+
+#center:hover {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/474/430/502/game-of-thrones-daenerys-targaryen-wallpaper-preview.jpg);
+    transition: 2s;
+}
+
+#center h1 {
+    position: absolute;
+    top: 75%;
+    color: rgba(192, 192, 192, 0.486);
+    letter-spacing: 8px;
+    font-size: 50px;
+}
+
+#center h1:hover {
+    color: rgb(173, 136, 42);
+    transition: .5s ease-out;
+    font-size: 55px;
+}
+
+#center h2 {
+    position: absolute;
+    top: 86%;
+    color: rgba(192, 192, 192, 0.527);
+    font-size: 18px;
+}
+
+#center h2:hover {
+    color: rgb(173, 136, 42);
+    transition: .5s ease-out;
+    font-size: 20px;
+}
+
+#center h3 {
+    position: absolute;
+    top: 90%;
+    color: rgba(192, 192, 192, 0.568);
+    font-size: 18px;
+}
+
+#center h3:hover {
+    color: rgb(173, 136, 42);
+    transition: .5s ease-out;
+    font-size: 20px;
+}
+
+#center1 h4 {
+    color: silver;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    font-size: 15px;
+}
+
+#center1 h4:hover {
+    color: goldenrod;
+}
+
+#center1 h5 {
+    color: silver;
+    position: absolute;
+    top: 43%;
+    left: 61%;
+    left: 60%;
+    font-size: 15px;
+}
+
+#center1 h5:hover {
+    color: goldenrod;
+}
+
+#center1 h6 {
+    color: silver;
+    position: absolute;
+    top: 47%;
+    left: 63%;
+}
+
+#center1 h6:hover {
+    color: goldenrod;
+    transition: .2s ease-in;
+    font-size: 12px;
+}
+
+#centerh1 summary {
+    cursor: pointer;
+    color: silver;
+    position: absolute;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    font-size: 12px;
+}
+
+#centerh1 summary:hover {
+    color: goldenrod;
+}
+
+#centerh1 p {
+
+    color: white;
+    position: absolute;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+
+#right {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    height: 100%;
+    width: 25%;
+    background-color: grey;
+}
+
+#left h1 {
+    position: absolute;
+    position: relative;
+    top: 15%;
+    left: 58%;
+    font-size: 80px;
+    color: rgba(192, 192, 192, 0.733);
+}
+
+#left h1:hover {
+    color: rgba(218, 165, 32, 0.719);
+
+}
+
+#lefth1 h6 {
+    color: silver;
+    position: absolute;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 12px;
+
+}
+
+#lefth1 h6:hover {
+    color: goldenrod;
+}
+
+#right #rtop {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/492/536/946/game-of-thrones-tv-jon-snow-blue-eyes-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#right #rtop:hover {
+    transition: .5s ease-in-out;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/130/155/832/tv-show-game-of-thrones-night-king-game-of-thrones-hd-wallpaper-preview.jpg);
+
+}
+
+#rtop summary {
+    color: silver;
+    position: absolute;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#rtop summary:hover {
+    color: goldenrod;
+}
+
+#rtop p {
+    color: white;
+    position: absolute;
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+    width: 80%;
+}
+
+#rtop h4 {
+    color: silver;
+    position: absolute;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+#rtop h4:hover {
+    color: rgb(171, 220, 240);
+    transition: .2s ease-in;
+    font-size: 18px;
+}
+
+#right #rbtm {
+    height: 20%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/413/495/729/game-of-thrones-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+}
+
+#rbtm h1 {
+    color: rgba(192, 192, 192, 0.671);
+    position: absolute;
+    position: relative;
+
+    height: 10%;
+    width: 70%;
+    top: 5%;
+    left: 29%;
+    font-size: 35px;
+    letter-spacing: 8px;
+
+
+
+}
+
+#rbtm h2 {
+    color: rgba(192, 192, 192, 0.671);
+    position: absolute;
+    position: relative;
+    top: 50%;
+    width: 70%;
+    left: 17%;
+    letter-spacing: 15px;
+    font-size: 35px;
+
+}
+
+#rbtm h1:hover {
+    color: skyblue;
+}
+
+#rbtm h2:hover {
+    color: skyblue;
+}
+
+#left1 {
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 20px;
+    position: absolute;
+
+    width: 15%;
+    top: 35%;
+}
+
+#left1 span {
+    color: rgba(255, 99, 71, 0.781);
+}
+
+#left1 a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    background-color: rgba(192, 192, 192, 0.712);
+    border-radius: 5px;
+
+}
+
+#video {
+    position: absolute;
+    top: 12%;
+
+}
